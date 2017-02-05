@@ -4,9 +4,9 @@ public class Drink {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		int customers=12467;
+		int customers=12467; //use spaces between operators int customers = 12467;
 		
-		double en=0.14*(customers);
+		double en=0.14*(customers); //use descriptive variable names not en, cp
 		
 		double cp=en;
 				
