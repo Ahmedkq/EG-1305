@@ -1,3 +1,6 @@
+/*Please format your code using Ctrl+F in Eclipse
+It is not readable, every line starts at a different level
+*/
 
 import java.util.Scanner;
 public class CountMoney{
