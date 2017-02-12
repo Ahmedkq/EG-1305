@@ -1,4 +1,4 @@
-/*Please format your code using Ctrl+F in Eclipse
+/*Please format your code using Ctrl+Shift+F in Eclipse
 It is not readable, every line starts at a different level
 */
 
