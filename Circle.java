@@ -1,19 +1,26 @@
+import java.util.Scanner;
 
 public class Circle {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
-		int  radius;
-		 radius=5;
-		 Double area;
-		 area=78.5398;
-		 int diameter;
-		 diameter=2*radius;
-		
-	System.out.println("The circle's radius is "+ radius + " ,and the area is " + area +
-			" The Diameter is "+ diameter );	
-		
+	double radius;
+
+	public Circle(double radius) {
+		this.radius = radius;
 	}
 
+	public double getRadius() {
+		return radius;
+	}
+
+	public double getArea() {
+		return Math.PI * radius * radius;
+	}
+
+	public double getDiamater() {
+		return radius * 2;
+	}
+
+	public double getCircumference() {
+		return 2 * Math.PI * radius;
+	}
 }
