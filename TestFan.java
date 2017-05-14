@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class TestFan {
 
    public static void main(String[] args) {
